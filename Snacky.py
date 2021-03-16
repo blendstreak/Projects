@@ -13,7 +13,7 @@ height = cell_size * cell_number
 
 screen = pygame.display.set_mode((width, height))
 
-pygame.display.set_caption("Snake game by Abhi")
+pygame.display.set_caption("Snacky")
 
 game_font = pygame.font.Font(None, 50)
 

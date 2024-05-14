@@ -138,6 +138,7 @@ while True:
     screen.fill((0, 0, 0))
 
     paddleLeft.checkMoving()
+    #use this for another player
     paddleRight.checkMoving()
     
     pygame.draw.aaline(screen, (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)), (WIDTH//2, 0), (WIDTH//2, 500))
@@ -155,6 +156,7 @@ while True:
     check_collision(ball)
     paddleLeft.update()
     paddleRight.update()
+    #use this for bot
     bot()
     pygame.display.update()
     clock.tick(60)

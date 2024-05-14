@@ -1,1 +1,1 @@
-Snake game made with pygame
+2 games with pygame.

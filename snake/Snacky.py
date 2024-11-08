@@ -1,4 +1,4 @@
-#Controls are 'WASD'. You could edit them.
+#Controls are 'WASD'. You can edit them.
 import random 
 import sys
 import pygame
